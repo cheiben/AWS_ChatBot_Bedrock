@@ -43,6 +43,22 @@ This project is a **simple AI chatbot** that explains AWS security and complianc
 * Go to the **AWS Console → EC2 → Launch Instance**
 * Use **Amazon Linux 2023**
 * Instance type: `t3.medium` (you can use `t3.micro` for testing)
+* Create IAM role with policy
+
+``` {
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "bedrock:InvokeModel",
+        "bedrock:InvokeModelWithResponseStream"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+```
 * Allow inbound ports: `22` (SSH) and `8501` (Streamlit UI)
 
 ---
