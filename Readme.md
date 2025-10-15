@@ -26,6 +26,8 @@ User → Streamlit UI → Router
              ↑
         Chroma Vectorstore ← Compliance Docs (.txt / .pdf)
 ```
+<img width="1644" height="530" alt="image" src="https://github.com/user-attachments/assets/235cad2b-e523-4178-aed2-376910dc219b" />
+
 ---
 
 # 🛡️ AWS Security & Compliance Chatbot
